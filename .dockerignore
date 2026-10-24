@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.git/
+design_backup_*/
+desktop_preview/
+work/

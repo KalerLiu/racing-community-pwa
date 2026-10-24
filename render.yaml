@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: racing-community-pwa
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health

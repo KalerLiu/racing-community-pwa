@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F2F2F7">
+  <title>Racing Community · 离线</title>
+  <style>
+    :root {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      color: #1c1c1e;
+      background: #f2f2f7;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    main {
+      width: min(420px, 100%);
+      padding: 32px;
+      border: 1px solid rgba(60,60,67,.12);
+      border-radius: 24px;
+      background: rgba(255,255,255,.78);
+      box-shadow: 0 4px 24px rgba(0,0,0,.04);
+      text-align: center;
+      backdrop-filter: blur(20px);
+    }
+    img { width: 76px; height: 76px; border-radius: 18px; }
+    h1 { margin: 18px 0 10px; font-size: 28px; }
+    p { color: #8e8e93; line-height: 1.7; }
+    button {
+      margin-top: 14px;
+      padding: 11px 20px;
+      border: 0;
+      border-radius: 12px;
+      background: #0a84ff;
+      color: white;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/assets/racing-community-avatar-320.jpg" alt="Racing Community">
+    <h1>暂时无法连接</h1>
+    <p>Racing Community 已安装。请连接网络后重试；当前天气和赛果需要联网获取。</p>
+    <button type="button" onclick="location.reload()">重新连接</button>
+  </main>
+</body>
+</html>
